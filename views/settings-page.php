@@ -4,6 +4,7 @@
         <?php
             settings_fields( 'mv_slider_group' );
             do_settings_sections( 'mv_slider_page_first' );
+            do_settings_sections( 'mv_slider_page_second' );
             submit_button( 'Save Settings' );
         ?>
     </form>
